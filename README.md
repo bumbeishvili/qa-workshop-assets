@@ -1,33 +1,34 @@
 # qa-workshop-assets
 
-Files for the workshop "Data visualization with D3 and AI" (QA conference,
-9 September 2026). Slides: https://qa.davidb.dev
+A project folder for the workshop "Data visualization with D3 and AI" (QA
+conference, 9 September 2026). Slides: https://qa.davidb.dev
 
-```
-qa-dataviz-skill/            the skill: rules, D3 convention, verification,
-                             sample data, checked findings, the report prompts
-samples/coverage_real.json   the coverage sample on its own: Apache Commons
-                             Math via SonarCloud, 76 directories
-```
-
-## Install the skill
+Clone it and open the folder in Claude Code. The skill is already installed.
 
 ```
 git clone https://github.com/bumbeishvili/qa-workshop-assets
-mkdir -p .claude/skills && cp -r qa-workshop-assets/qa-dataviz-skill .claude/skills/qa-dataviz
+cd qa-workshop-assets
+claude
 ```
 
-Use `~/.claude/skills/qa-dataviz` as the target to have it in every project.
-For tools other than Claude Code, paste `qa-dataviz-skill/SKILL.md` into the
-system context and keep the linked files reachable.
+```
+.claude/skills/qa-dataviz/   the skill: rules, D3 convention, verification,
+                             sample data, checked findings, the report prompts
+samples/coverage_real.json   the coverage sample: Apache Commons Math via
+                             SonarCloud, 76 directories
+```
 
-## Build a report
+## Build the coverage report
 
-The prompt for each sample is in `qa-dataviz-skill/samples/PROMPTS.md`; with
-the skill installed, that prompt is the whole request. The checked numbers
-it carries are in `qa-dataviz-skill/samples/FINDINGS.md`. To review a
-generated page by measurement:
+Paste the coverage prompt from `.claude/skills/qa-dataviz/samples/PROMPTS.md`
+into Claude Code. With the skill loaded, that prompt is the whole request;
+the checked numbers it carries are in `samples/FINDINGS.md` next to it.
+
+To review a generated page by measurement:
 
 ```
-NODE_PATH="$(npm root -g)" node qa-dataviz-skill/verify/report-checks.cjs path/to/index.html
+NODE_PATH="$(npm root -g)" node .claude/skills/qa-dataviz/verify/report-checks.cjs path/to/index.html
 ```
+
+To use the skill in another project, copy `.claude/skills/qa-dataviz` there,
+or into `~/.claude/skills` for every project.
