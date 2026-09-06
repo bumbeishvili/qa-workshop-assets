@@ -1,0 +1,463 @@
+{
+ "path": "commons-math",
+ "loc": 295312,
+ "covered_pct": 80,
+ "children": [
+  {
+   "path": "commons-math-legacy",
+   "loc": 51095,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy",
+   "loc": 50914,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src",
+   "loc": 50914,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/linear",
+   "loc": 13811,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ode",
+   "loc": 9382,
+   "covered_pct": 93,
+   "children": []
+  },
+  {
+   "path": "commons-math-core",
+   "loc": 9377,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-core/src/main/java/org/apache/commons/math4/core/jdkmath",
+   "loc": 9346,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-core/src",
+   "loc": 9346,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis",
+   "loc": 9186,
+   "covered_pct": 92,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/optim",
+   "loc": 6291,
+   "covered_pct": 87,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ode/nonstiff",
+   "loc": 5709,
+   "covered_pct": 96,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/stat",
+   "loc": 5301,
+   "covered_pct": 88,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/optim/nonlinear/scalar",
+   "loc": 4100,
+   "covered_pct": 85,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-core",
+   "loc": 3678,
+   "covered_pct": 88,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-core/src/main/java/org/apache/commons/math4/legacy/core",
+   "loc": 3632,
+   "covered_pct": 88,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-core/src",
+   "loc": 3632,
+   "covered_pct": 88,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/optim/nonlinear/scalar/noderiv",
+   "loc": 3305,
+   "covered_pct": 86,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-core/src/main/java/org/apache/commons/math4/legacy/core/dfp",
+   "loc": 2806,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/stat/descriptive",
+   "loc": 2654,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis/differentiation",
+   "loc": 2304,
+   "covered_pct": 99,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis/interpolation",
+   "loc": 2089,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/fitting",
+   "loc": 1839,
+   "covered_pct": 92,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis/solvers",
+   "loc": 1741,
+   "covered_pct": 86,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/stat/regression",
+   "loc": 1655,
+   "covered_pct": 79,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet",
+   "loc": 1451,
+   "covered_pct": 73,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src/main/java/org/apache/commons/math4/neuralnet",
+   "loc": 1413,
+   "covered_pct": 73,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src",
+   "loc": 1413,
+   "covered_pct": 73,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/fitting/leastsquares",
+   "loc": 1387,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/distribution",
+   "loc": 1297,
+   "covered_pct": 79,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ml",
+   "loc": 1276,
+   "covered_pct": 80,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ml/clustering",
+   "loc": 1213,
+   "covered_pct": 80,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-exception",
+   "loc": 1152,
+   "covered_pct": 84,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-exception/src/main/java/org/apache/commons/math4/legacy/exception",
+   "loc": 1098,
+   "covered_pct": 84,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-exception/src",
+   "loc": 1098,
+   "covered_pct": 84,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples",
+   "loc": 1066,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis/function",
+   "loc": 1060,
+   "covered_pct": 98,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis/integration",
+   "loc": 960,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/genetics",
+   "loc": 939,
+   "covered_pct": 91,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/optim/linear",
+   "loc": 905,
+   "covered_pct": 89,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ode/sampling",
+   "loc": 806,
+   "covered_pct": 76,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-sofm",
+   "loc": 755,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis/polynomials",
+   "loc": 737,
+   "covered_pct": 83,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ode/events",
+   "loc": 703,
+   "covered_pct": 86,
+   "children": []
+  },
+  {
+   "path": "commons-math-transform",
+   "loc": 644,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/optim/univariate",
+   "loc": 641,
+   "covered_pct": 91,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src/main/java/org/apache/commons/math4/neuralnet/twod",
+   "loc": 621,
+   "covered_pct": 74,
+   "children": []
+  },
+  {
+   "path": "commons-math-transform/src/main/java/org/apache/commons/math4/transform",
+   "loc": 590,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-transform/src",
+   "loc": 590,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/stat/correlation",
+   "loc": 568,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy-exception/src/main/java/org/apache/commons/math4/legacy/exception/util",
+   "loc": 561,
+   "covered_pct": 97,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/analysis/integration/gauss",
+   "loc": 519,
+   "covered_pct": 98,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-sofm/tsp",
+   "loc": 419,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-sofm/tsp/src/main/java/org/apache/commons/math4/examples/sofm/tsp",
+   "loc": 396,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/special",
+   "loc": 377,
+   "covered_pct": 92,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/field",
+   "loc": 376,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/field/linalg",
+   "loc": 375,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/stat/descriptive/rank",
+   "loc": 358,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-sofm/chinese-rings",
+   "loc": 305,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/util",
+   "loc": 294,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/random",
+   "loc": 289,
+   "covered_pct": 90,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/stat/descriptive/moment",
+   "loc": 287,
+   "covered_pct": 94,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-sofm/chinese-rings/src/main/java/org/apache/commons/math4/examples/sofm/chineserings",
+   "loc": 272,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src/main/java/org/apache/commons/math4/neuralnet/sofm",
+   "loc": 271,
+   "covered_pct": 88,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/filter",
+   "loc": 256,
+   "covered_pct": 78,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/distribution/fitting",
+   "loc": 221,
+   "covered_pct": 91,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-kmeans",
+   "loc": 212,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-kmeans/image",
+   "loc": 182,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src/main/java/org/apache/commons/math4/neuralnet/twod/util",
+   "loc": 170,
+   "covered_pct": 18,
+   "children": []
+  },
+  {
+   "path": "commons-math-examples/examples-kmeans/image/src/main/java/org/apache/commons/math4/examples/kmeans/image",
+   "loc": 147,
+   "covered_pct": 0,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/optim/nonlinear/scalar/gradient",
+   "loc": 132,
+   "covered_pct": 92,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ml/clustering/evaluation",
+   "loc": 125,
+   "covered_pct": 92,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src/main/java/org/apache/commons/math4/neuralnet/oned",
+   "loc": 77,
+   "covered_pct": 56,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src/main/java/org/apache/commons/math4/neuralnet/sofm/util",
+   "loc": 65,
+   "covered_pct": 96,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/ml/distance",
+   "loc": 62,
+   "covered_pct": 100,
+   "children": []
+  },
+  {
+   "path": "commons-math-legacy/src/main/java/org/apache/commons/math4/legacy/stat/descriptive/summary",
+   "loc": 57,
+   "covered_pct": 96,
+   "children": []
+  },
+  {
+   "path": "commons-math-neuralnet/src/main/java/org/apache/commons/math4/neuralnet/internal",
+   "loc": 17,
+   "covered_pct": 100,
+   "children": []
+  }
+ ]
+}

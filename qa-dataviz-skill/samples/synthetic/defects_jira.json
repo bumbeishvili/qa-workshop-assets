@@ -1,0 +1,2801 @@
+[
+ {
+  "defect_id": "PROJ-4101",
+  "severity": "critical",
+  "module": "legacy-sync",
+  "opened": "2026-04-26",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4102",
+  "severity": "critical",
+  "module": "billing",
+  "opened": "2026-05-04",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4103",
+  "severity": "critical",
+  "module": "billing",
+  "opened": "2026-05-11",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4104",
+  "severity": "critical",
+  "module": "billing",
+  "opened": "2026-05-16",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4201",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-04-18",
+  "closed": "2026-05-18",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-19"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4202",
+  "severity": "low",
+  "module": "api",
+  "opened": "2026-04-19",
+  "closed": "2026-05-03",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-22"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4203",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-04-19",
+  "closed": "2026-05-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-21"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4204",
+  "severity": "low",
+  "module": "payments",
+  "opened": "2026-04-20",
+  "closed": "2026-05-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-24"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4205",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-04-21",
+  "closed": "2026-05-09",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4206",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-04-22",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-27"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4207",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-04-22",
+  "closed": "2026-08-11",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-25"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4208",
+  "severity": "high",
+  "module": "billing",
+  "opened": "2026-04-23",
+  "closed": "2026-05-07",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-24"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4209",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-04-24",
+  "closed": "2026-05-01",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-01"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4210",
+  "severity": "critical",
+  "module": "ui",
+  "opened": "2026-04-25",
+  "closed": "2026-05-09",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4211",
+  "severity": "high",
+  "module": "ui",
+  "opened": "2026-04-25",
+  "closed": "2026-06-08",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-26"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4212",
+  "severity": "low",
+  "module": "payments",
+  "opened": "2026-04-26",
+  "closed": "2026-05-05",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4213",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-04-27",
+  "closed": "2026-05-02",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-02"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4214",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-04-28",
+  "closed": "2026-05-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-01"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4215",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-04-28",
+  "closed": "2026-05-28",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-02"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4216",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-04-29",
+  "closed": "2026-05-05",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4217",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-04-30",
+  "closed": "2026-05-03",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4218",
+  "severity": "critical",
+  "module": "core",
+  "opened": "2026-05-01",
+  "closed": "2026-05-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-06"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4219",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-05-01",
+  "closed": "2026-05-11",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-05"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4220",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-05-02",
+  "closed": "2026-05-23",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4221",
+  "severity": "high",
+  "module": "payments",
+  "opened": "2026-05-03",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-08"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4222",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-05-04",
+  "closed": "2026-05-14",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4223",
+  "severity": "high",
+  "module": "core",
+  "opened": "2026-05-04",
+  "closed": "2026-05-30",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-06"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4224",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-05-05",
+  "closed": "2026-06-02",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-06"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4225",
+  "severity": "critical",
+  "module": "payments",
+  "opened": "2026-05-06",
+  "closed": "2026-06-12",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-09"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4226",
+  "severity": "low",
+  "module": "auth",
+  "opened": "2026-05-07",
+  "closed": "2026-05-15",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4227",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-05-07",
+  "closed": "2026-05-15",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-12"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4228",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-05-08",
+  "closed": "2026-05-12",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-10"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4229",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-05-09",
+  "closed": "2026-05-21",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-10"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-21"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4230",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-05-10",
+  "closed": "2026-05-31",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-31"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4231",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-05-10",
+  "closed": "2026-06-22",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-15"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4232",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-05-11",
+  "closed": "2026-05-13",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-15"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4233",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-05-12",
+  "closed": "2026-05-18",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-13"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4234",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-05-13",
+  "closed": "2026-06-13",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-16"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4235",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-05-13",
+  "closed": "2026-05-28",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4236",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-05-14",
+  "closed": "2026-05-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-16"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4237",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-05-15",
+  "closed": "2026-06-15",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-16"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4238",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-05-16",
+  "closed": "2026-06-11",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4239",
+  "severity": "low",
+  "module": "auth",
+  "opened": "2026-05-16",
+  "closed": "2026-05-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-19"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4240",
+  "severity": "high",
+  "module": "ui",
+  "opened": "2026-05-17",
+  "closed": "2026-05-30",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4241",
+  "severity": "low",
+  "module": "payments",
+  "opened": "2026-05-18",
+  "closed": "2026-06-08",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4242",
+  "severity": "high",
+  "module": "core",
+  "opened": "2026-05-19",
+  "closed": "2026-05-29",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-24"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4243",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-05-19",
+  "closed": "2026-05-30",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4244",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-05-20",
+  "closed": "2026-06-07",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-21"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4245",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-05-21",
+  "closed": "2026-05-30",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-22"
+   },
+   {
+    "to": "closed",
+    "at": "2026-05-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4246",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-05-22",
+  "closed": "2026-05-31",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-05-31"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4247",
+  "severity": "low",
+  "module": "api",
+  "opened": "2026-05-22",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-24"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4248",
+  "severity": "critical",
+  "module": "ui",
+  "opened": "2026-05-23",
+  "closed": "2026-06-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-26"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4249",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-05-24",
+  "closed": "2026-06-01",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-01"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4250",
+  "severity": "high",
+  "module": "payments",
+  "opened": "2026-05-25",
+  "closed": "2026-06-05",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4251",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-05-25",
+  "closed": "2026-07-18",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-30"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4252",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-05-26",
+  "closed": "2026-06-07",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4253",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-05-27",
+  "closed": "2026-06-26",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4254",
+  "severity": "high",
+  "module": "billing",
+  "opened": "2026-05-28",
+  "closed": "2026-06-13",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-31"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4255",
+  "severity": "low",
+  "module": "payments",
+  "opened": "2026-05-28",
+  "closed": "2026-06-14",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-01"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4256",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-05-29",
+  "closed": "2026-06-19",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4257",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-05-30",
+  "closed": "2026-08-13",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4258",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-05-31",
+  "closed": "2026-06-21",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-21"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4259",
+  "severity": "high",
+  "module": "ui",
+  "opened": "2026-05-31",
+  "closed": "2026-06-22",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-05"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4260",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-06-01",
+  "closed": "2026-07-21",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-21"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4261",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-06-02",
+  "closed": "2026-06-24",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4262",
+  "severity": "low",
+  "module": "payments",
+  "opened": "2026-06-03",
+  "closed": "2026-07-30",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-06"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4263",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-06-03",
+  "closed": "2026-06-06",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4264",
+  "severity": "low",
+  "module": "billing",
+  "opened": "2026-06-04",
+  "closed": "2026-06-10",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4265",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-06-05",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-07"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4266",
+  "severity": "critical",
+  "module": "ui",
+  "opened": "2026-06-06",
+  "closed": "2026-06-17",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-08"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-17"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4267",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-06-06",
+  "closed": "2026-06-10",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4268",
+  "severity": "critical",
+  "module": "auth",
+  "opened": "2026-06-07",
+  "closed": "2026-06-25",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-11"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4269",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-06-08",
+  "closed": "2026-06-23",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4270",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-06-09",
+  "closed": "2026-07-05",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4271",
+  "severity": "low",
+  "module": "api",
+  "opened": "2026-06-09",
+  "closed": "2026-07-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-10"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4272",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-06-10",
+  "closed": "2026-07-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-15"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4273",
+  "severity": "low",
+  "module": "payments",
+  "opened": "2026-06-11",
+  "closed": "2026-06-23",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4274",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-06-12",
+  "closed": "2026-06-25",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-16"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4275",
+  "severity": "critical",
+  "module": "ui",
+  "opened": "2026-06-12",
+  "closed": "2026-06-23",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-14"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4276",
+  "severity": "high",
+  "module": "ui",
+  "opened": "2026-06-13",
+  "closed": "2026-06-19",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-16"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4277",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-06-14",
+  "closed": "2026-06-25",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-15"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4278",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-06-15",
+  "closed": "2026-06-23",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-19"
+   },
+   {
+    "to": "closed",
+    "at": "2026-06-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4279",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-06-15",
+  "closed": "2026-08-07",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4280",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-06-16",
+  "closed": "2026-07-11",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4281",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-06-17",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4282",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-06-18",
+  "closed": "2026-06-24",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4283",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-06-18",
+  "closed": "2026-06-25",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-06-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4284",
+  "severity": "high",
+  "module": "ui",
+  "opened": "2026-06-19",
+  "closed": "2026-07-06",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4285",
+  "severity": "critical",
+  "module": "billing",
+  "opened": "2026-06-20",
+  "closed": "2026-07-01",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-23"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-01"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4286",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-06-21",
+  "closed": "2026-07-15",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-24"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4287",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-06-21",
+  "closed": "2026-07-08",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-22"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4288",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-06-22",
+  "closed": "2026-07-19",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-23"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4289",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-06-23",
+  "closed": "2026-07-03",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-25"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4290",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-06-24",
+  "closed": "2026-08-04",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-29"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4291",
+  "severity": "low",
+  "module": "api",
+  "opened": "2026-06-24",
+  "closed": "2026-08-14",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-27"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4292",
+  "severity": "critical",
+  "module": "billing",
+  "opened": "2026-06-25",
+  "closed": "2026-07-25",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4293",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-06-26",
+  "closed": "2026-07-10",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4294",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-06-27",
+  "closed": "2026-07-21",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-21"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4295",
+  "severity": "low",
+  "module": "auth",
+  "opened": "2026-06-27",
+  "closed": "2026-07-21",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-21"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4296",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-06-28",
+  "closed": "2026-07-09",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4297",
+  "severity": "high",
+  "module": "payments",
+  "opened": "2026-06-29",
+  "closed": "2026-07-22",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-30"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4298",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-06-30",
+  "closed": "2026-07-08",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-02"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4299",
+  "severity": "low",
+  "module": "billing",
+  "opened": "2026-06-30",
+  "closed": "2026-07-22",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4300",
+  "severity": "high",
+  "module": "auth",
+  "opened": "2026-07-01",
+  "closed": "2026-07-06",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-04"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4301",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-07-02",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-05"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4302",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-07-03",
+  "closed": "2026-07-14",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-07"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4303",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-07-03",
+  "closed": "2026-07-06",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4304",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-07-04",
+  "closed": "2026-08-02",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-08"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4305",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-07-05",
+  "closed": "2026-07-22",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4306",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-07-06",
+  "closed": "2026-07-13",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-07"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4307",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-07-06",
+  "closed": "2026-07-25",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-11"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4308",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-07-07",
+  "closed": "2026-07-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-10"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4309",
+  "severity": "low",
+  "module": "api",
+  "opened": "2026-07-08",
+  "closed": "2026-07-20",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4310",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-07-09",
+  "closed": "2026-07-21",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-21"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4311",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-07-09",
+  "closed": "2026-07-17",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-13"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-17"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4312",
+  "severity": "low",
+  "module": "auth",
+  "opened": "2026-07-10",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4313",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-07-11",
+  "closed": "2026-07-20",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4314",
+  "severity": "high",
+  "module": "auth",
+  "opened": "2026-07-12",
+  "closed": "2026-08-04",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-17"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4315",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-07-12",
+  "closed": "2026-07-16",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4316",
+  "severity": "critical",
+  "module": "legacy-sync",
+  "opened": "2026-07-13",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-18"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4317",
+  "severity": "high",
+  "module": "core",
+  "opened": "2026-07-14",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4318",
+  "severity": "high",
+  "module": "core",
+  "opened": "2026-07-15",
+  "closed": "2026-07-26",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4319",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-07-15",
+  "closed": "2026-07-28",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-17"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4320",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-07-16",
+  "closed": "2026-07-29",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4321",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-07-17",
+  "closed": "2026-07-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-18"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4322",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-07-18",
+  "closed": "2026-07-31",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-31"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4323",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-07-18",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4324",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-07-19",
+  "closed": "2026-07-25",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4325",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-07-19",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4326",
+  "severity": "high",
+  "module": "billing",
+  "opened": "2026-07-20",
+  "closed": "2026-07-22",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4327",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-07-20",
+  "closed": "2026-07-29",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-22"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4328",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-07-21",
+  "closed": "2026-07-30",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4329",
+  "severity": "low",
+  "module": "auth",
+  "opened": "2026-07-21",
+  "closed": "2026-08-06",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-24"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4330",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-07-21",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4331",
+  "severity": "low",
+  "module": "payments",
+  "opened": "2026-07-22",
+  "closed": "2026-07-29",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-25"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4332",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-07-22",
+  "closed": "2026-07-25",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-26"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4333",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-07-23",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4334",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-07-23",
+  "closed": "2026-08-12",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-26"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4335",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-07-24",
+  "closed": "2026-07-28",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-07-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4336",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-07-24",
+  "closed": "2026-08-13",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-26"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4337",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-07-24",
+  "closed": "2026-08-03",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4338",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-07-25",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4339",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-07-25",
+  "closed": "2026-07-31",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-27"
+   },
+   {
+    "to": "closed",
+    "at": "2026-07-31"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4340",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-07-26",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4341",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-07-26",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4342",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-07-27",
+  "closed": "2026-08-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-30"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4343",
+  "severity": "critical",
+  "module": "legacy-sync",
+  "opened": "2026-07-27",
+  "closed": "2026-08-15",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4344",
+  "severity": "critical",
+  "module": "api",
+  "opened": "2026-07-27",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4345",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-07-28",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4346",
+  "severity": "critical",
+  "module": "auth",
+  "opened": "2026-07-28",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4347",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-07-29",
+  "closed": "2026-08-15",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4348",
+  "severity": "medium",
+  "module": "api",
+  "opened": "2026-07-29",
+  "closed": "2026-08-12",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4349",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-07-30",
+  "closed": "2026-08-03",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-03"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4350",
+  "severity": "high",
+  "module": "payments",
+  "opened": "2026-07-30",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-31"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4351",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-07-30",
+  "closed": "2026-08-11",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-04"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4352",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-07-31",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4353",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-07-31",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4354",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-08-01",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4355",
+  "severity": "low",
+  "module": "ui",
+  "opened": "2026-08-01",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4356",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-08-02",
+  "closed": "2026-08-04",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4357",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-08-02",
+  "closed": "2026-08-14",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-04"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4358",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-08-02",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4359",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-08-03",
+  "closed": "2026-08-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-08"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4360",
+  "severity": "high",
+  "module": "ui",
+  "opened": "2026-08-03",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4361",
+  "severity": "medium",
+  "module": "ui",
+  "opened": "2026-08-04",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4362",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-08-04",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4363",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-08-05",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4364",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-08-05",
+  "closed": "2026-08-10",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4365",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-08-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4366",
+  "severity": "high",
+  "module": "api",
+  "opened": "2026-08-06",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4367",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-08-06",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4368",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-08-07",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4369",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-08-07",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4370",
+  "severity": "high",
+  "module": "billing",
+  "opened": "2026-08-08",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4371",
+  "severity": "medium",
+  "module": "core",
+  "opened": "2026-08-08",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4372",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-08-08",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4373",
+  "severity": "critical",
+  "module": "auth",
+  "opened": "2026-08-09",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4374",
+  "severity": "medium",
+  "module": "auth",
+  "opened": "2026-08-09",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4375",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-08-10",
+  "closed": "2026-08-16",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-13"
+   },
+   {
+    "to": "closed",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4376",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-08-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4377",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-08-11",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4378",
+  "severity": "critical",
+  "module": "payments",
+  "opened": "2026-08-11",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4379",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-08-11",
+  "closed": "2026-08-14",
+  "transitions": [
+   {
+    "to": "closed",
+    "at": "2026-08-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4380",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-08-12",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4381",
+  "severity": "high",
+  "module": "legacy-sync",
+  "opened": "2026-08-12",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-17"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4382",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-08-13",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4383",
+  "severity": "low",
+  "module": "auth",
+  "opened": "2026-08-13",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-17"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4384",
+  "severity": "high",
+  "module": "payments",
+  "opened": "2026-08-14",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4385",
+  "severity": "low",
+  "module": "legacy-sync",
+  "opened": "2026-08-14",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4386",
+  "severity": "medium",
+  "module": "payments",
+  "opened": "2026-08-14",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4387",
+  "severity": "medium",
+  "module": "legacy-sync",
+  "opened": "2026-08-15",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4388",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-08-15",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-17"
+   }
+  ]
+ },
+ {
+  "defect_id": "PROJ-4389",
+  "severity": "medium",
+  "module": "billing",
+  "opened": "2026-08-16",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "PROJ-4390",
+  "severity": "low",
+  "module": "core",
+  "opened": "2026-08-16",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-08-19"
+   }
+  ]
+ }
+]

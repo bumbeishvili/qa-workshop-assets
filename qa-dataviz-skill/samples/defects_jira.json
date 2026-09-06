@@ -1,0 +1,3719 @@
+[
+ {
+  "defect_id": "HADOOP-19965",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-08-15",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19964",
+  "severity": "critical",
+  "module": "unassigned",
+  "opened": "2026-08-13",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-08-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19963",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-08-13",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-08-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19962",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19961",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19960",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19959",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19958",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-10",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-08-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19957",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-07",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19956",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-07",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19955",
+  "severity": "low",
+  "module": "website",
+  "opened": "2026-08-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19954",
+  "severity": "high",
+  "module": "website",
+  "opened": "2026-08-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19953",
+  "severity": "high",
+  "module": "website",
+  "opened": "2026-08-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19952",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-08-04",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19951",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-08-03",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19950",
+  "severity": "high",
+  "module": "test",
+  "opened": "2026-08-02",
+  "closed": "2026-08-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19949",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-07-30",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19948",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-07-29",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19947",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2026-07-24",
+  "closed": "2026-07-25",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-07-24"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-07-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19946",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-07-23",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19945",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-07-22",
+  "closed": "2026-07-30",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19944",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-07-20",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19943",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-07-18",
+  "closed": "2026-07-22",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19942",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-07-18",
+  "closed": "2026-07-20",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19941",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-07-14",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19940",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-07-14",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19939",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-07-13",
+  "closed": "2026-07-22",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19938",
+  "severity": "critical",
+  "module": "fs/s3",
+  "opened": "2026-07-11",
+  "closed": "2026-07-12",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19937",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2026-07-09",
+  "closed": "2026-07-20",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19936",
+  "severity": "medium",
+  "module": "io",
+  "opened": "2026-07-09",
+  "closed": "2026-07-25",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19935",
+  "severity": "high",
+  "module": "scripts",
+  "opened": "2026-07-08",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-07-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19934",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-07-07",
+  "closed": "2026-07-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19933",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-07-06",
+  "closed": "2026-07-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19932",
+  "severity": "medium",
+  "module": "io",
+  "opened": "2026-07-06",
+  "closed": "2026-07-31",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-31"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19931",
+  "severity": "medium",
+  "module": "net",
+  "opened": "2026-07-03",
+  "closed": "2026-07-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19930",
+  "severity": "medium",
+  "module": "ipc",
+  "opened": "2026-06-29",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19929",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-06-29",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19928",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-06-26",
+  "closed": "2026-06-30",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19927",
+  "severity": "medium",
+  "module": "test",
+  "opened": "2026-06-25",
+  "closed": "2026-07-06",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-25"
+   },
+   {
+    "to": "patch_available",
+    "at": "2026-06-25"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-07-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19926",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-06-24",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19925",
+  "severity": "high",
+  "module": "security",
+  "opened": "2026-06-23",
+  "closed": "2026-07-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19923",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-06-18",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19922",
+  "severity": "medium",
+  "module": "ipc",
+  "opened": "2026-06-18",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19921",
+  "severity": "medium",
+  "module": "ci",
+  "opened": "2026-06-16",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19920",
+  "severity": "high",
+  "module": "test",
+  "opened": "2026-06-15",
+  "closed": "2026-06-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19919",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-06-11",
+  "closed": "2026-06-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19918",
+  "severity": "high",
+  "module": "hadoop-common",
+  "opened": "2026-06-11",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19917",
+  "severity": "medium",
+  "module": "hadoop-tools",
+  "opened": "2026-06-10",
+  "closed": "2026-06-11",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-10"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-06-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19916",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-06-09",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19915",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-06-09",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19914",
+  "severity": "high",
+  "module": "tools",
+  "opened": "2026-06-08",
+  "closed": "2026-08-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-08-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19913",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-06-05",
+  "closed": "2026-06-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19912",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-06-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19911",
+  "severity": "high",
+  "module": "test",
+  "opened": "2026-06-05",
+  "closed": "2026-06-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19910",
+  "severity": "high",
+  "module": "hadoop-common",
+  "opened": "2026-06-05",
+  "closed": "2026-06-30",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19909",
+  "severity": "medium",
+  "module": "fs/azure",
+  "opened": "2026-06-03",
+  "closed": "2026-06-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19908",
+  "severity": "high",
+  "module": "compress",
+  "opened": "2026-06-02",
+  "closed": "2026-06-04",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19907",
+  "severity": "high",
+  "module": "auth",
+  "opened": "2026-06-01",
+  "closed": "2026-07-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19906",
+  "severity": "high",
+  "module": "security",
+  "opened": "2026-05-31",
+  "closed": "2026-07-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19905",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-05-27",
+  "closed": "2026-07-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19904",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-27",
+  "closed": "2026-05-27",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-27"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19903",
+  "severity": "high",
+  "module": "fs/gcs",
+  "opened": "2026-05-25",
+  "closed": "2026-06-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19902",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-24",
+  "closed": "2026-05-28",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19901",
+  "severity": "high",
+  "module": "fs",
+  "opened": "2026-05-23",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19900",
+  "severity": "high",
+  "module": "erasure-coding",
+  "opened": "2026-05-22",
+  "closed": "2026-05-28",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-27"
+   },
+   {
+    "to": "patch_available",
+    "at": "2026-05-27"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-05-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19899",
+  "severity": "medium",
+  "module": "common",
+  "opened": "2026-05-21",
+  "closed": "2026-05-24",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-21"
+   },
+   {
+    "to": "patch_available",
+    "at": "2026-05-21"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-05-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19898",
+  "severity": "high",
+  "module": "ci",
+  "opened": "2026-05-19",
+  "closed": "2026-05-28",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-20"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-05-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19897",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-05-19",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19896",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-05-18",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19895",
+  "severity": "medium",
+  "module": "ci",
+  "opened": "2026-05-18",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19894",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-05-18",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19893",
+  "severity": "high",
+  "module": "ci",
+  "opened": "2026-05-18",
+  "closed": "2026-07-28",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-06-15"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-07-28"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19892",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2026-05-18",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19891",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-05-13",
+  "closed": "2026-08-03",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-05-29"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-08-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19890",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2026-05-11",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19889",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-08",
+  "closed": "2026-05-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19888",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-05-08",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19887",
+  "severity": "high",
+  "module": "ci",
+  "opened": "2026-05-08",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19886",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-05-07",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19885",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-05-07",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19884",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-07",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19883",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-05-07",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19882",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-07",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19881",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-06",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19880",
+  "severity": "high",
+  "module": "cloud-storage",
+  "opened": "2026-05-05",
+  "closed": "2026-06-04",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19879",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19878",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-05-05",
+  "closed": "2026-05-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19877",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2026-05-05",
+  "closed": "2026-05-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19876",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-04-30",
+  "closed": "2026-05-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19875",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-04-29",
+  "closed": "2026-05-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19874",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-04-27",
+  "closed": "2026-05-04",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19873",
+  "severity": "medium",
+  "module": "fs/azure",
+  "opened": "2026-04-25",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19872",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-04-24",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-24"
+   },
+   {
+    "to": "reopened",
+    "at": "2026-04-27"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19871",
+  "severity": "medium",
+  "module": "ci",
+  "opened": "2026-04-23",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19870",
+  "severity": "medium",
+  "module": "test",
+  "opened": "2026-04-22",
+  "closed": "2026-05-18",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19869",
+  "severity": "medium",
+  "module": "security",
+  "opened": "2026-04-22",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19868",
+  "severity": "medium",
+  "module": "test",
+  "opened": "2026-04-22",
+  "closed": "2026-05-14",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-22"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-05-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19867",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-04-19",
+  "closed": "2026-04-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19866",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-04-19",
+  "closed": "2026-04-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19865",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-04-17",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19864",
+  "severity": "high",
+  "module": "ipc",
+  "opened": "2026-04-16",
+  "closed": "2026-04-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19863",
+  "severity": "high",
+  "module": "fs",
+  "opened": "2026-04-16",
+  "closed": "2026-05-13",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19862",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-04-14",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19861",
+  "severity": "high",
+  "module": "hadoop-cos",
+  "opened": "2026-04-12",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-04-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19860",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2026-04-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19859",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-04-08",
+  "closed": "2026-04-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19858",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-04-08",
+  "closed": "2026-04-22",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19857",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-04-08",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19856",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-04-02",
+  "closed": "2026-04-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19855",
+  "severity": "high",
+  "module": "compress",
+  "opened": "2026-04-02",
+  "closed": "2026-04-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19854",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-04-02",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19853",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2026-03-29",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19852",
+  "severity": "high",
+  "module": "test",
+  "opened": "2026-03-29",
+  "closed": "2026-03-31",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-31"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19851",
+  "severity": "high",
+  "module": "documentation",
+  "opened": "2026-03-29",
+  "closed": "2026-08-04",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-08-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19850",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-03-26",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19849",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-03-23",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19848",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-03-22",
+  "closed": "2026-05-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-05-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19847",
+  "severity": "high",
+  "module": "hdfs",
+  "opened": "2026-03-20",
+  "closed": "2026-03-20",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19846",
+  "severity": "medium",
+  "module": "test",
+  "opened": "2026-03-19",
+  "closed": "2026-03-26",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19845",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-03-19",
+  "closed": "2026-03-30",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19844",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-03-19",
+  "closed": "2026-04-17",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-17"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19843",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-03-18",
+  "closed": "2026-03-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19842",
+  "severity": "high",
+  "module": "hadoop-thirdparty",
+  "opened": "2026-03-16",
+  "closed": "2026-03-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-03-19"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19841",
+  "severity": "high",
+  "module": "hadoop-thirdparty",
+  "opened": "2026-03-16",
+  "closed": "2026-03-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19840",
+  "severity": "high",
+  "module": "hadoop-thirdparty",
+  "opened": "2026-03-16",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19839",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-03-16",
+  "closed": "2026-03-30",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19838",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-03-15",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19837",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-03-11",
+  "closed": "2026-03-26",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-13"
+   },
+   {
+    "to": "reopened",
+    "at": "2026-03-16"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-23"
+   },
+   {
+    "to": "reopened",
+    "at": "2026-03-25"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19836",
+  "severity": "high",
+  "module": "hdfs",
+  "opened": "2026-03-10",
+  "closed": "2026-03-12",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19834",
+  "severity": "low",
+  "module": "documentation",
+  "opened": "2026-03-08",
+  "closed": "2026-03-10",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19833",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-03-06",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19832",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2026-03-06",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19831",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-03-03",
+  "closed": "2026-03-09",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19830",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-03-03",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19829",
+  "severity": "critical",
+  "module": "build",
+  "opened": "2026-03-03",
+  "closed": "2026-03-10",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19828",
+  "severity": "high",
+  "module": "docker",
+  "opened": "2026-03-02",
+  "closed": "2026-03-07",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-03-02"
+   },
+   {
+    "to": "patch_available",
+    "at": "2026-03-02"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19827",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-03-02",
+  "closed": "2026-03-10",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19826",
+  "severity": "medium",
+  "module": "fs",
+  "opened": "2026-02-27",
+  "closed": "2026-03-09",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19825",
+  "severity": "medium",
+  "module": "docker",
+  "opened": "2026-02-26",
+  "closed": "2026-03-08",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-02-26"
+   },
+   {
+    "to": "patch_available",
+    "at": "2026-03-07"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19824",
+  "severity": "medium",
+  "module": "hadoop-common",
+  "opened": "2026-02-25",
+  "closed": "2026-03-26",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19823",
+  "severity": "high",
+  "module": "fs/adl",
+  "opened": "2026-02-25",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19822",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-02-24",
+  "closed": "2026-02-26",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19821",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-02-20",
+  "closed": "2026-02-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19820",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-02-20",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19819",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-02-19",
+  "closed": "2026-03-03",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19818",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2026-02-17",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19817",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2026-02-17",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19816",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-02-17",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19815",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-02-17",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19814",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-02-12",
+  "closed": "2026-04-14",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-02-12"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-04-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19813",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-02-11",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19812",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-02-10",
+  "closed": "2026-02-11",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19811",
+  "severity": "critical",
+  "module": "fs/gcs",
+  "opened": "2026-02-09",
+  "closed": "2026-02-13",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19810",
+  "severity": "high",
+  "module": "common",
+  "opened": "2026-02-08",
+  "closed": "2026-02-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19809",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2026-02-08",
+  "closed": "2026-02-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19808",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-02-07",
+  "closed": "2026-02-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19807",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-02-07",
+  "closed": "2026-02-12",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19806",
+  "severity": "medium",
+  "module": "common",
+  "opened": "2026-02-06",
+  "closed": "2026-02-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19805",
+  "severity": "low",
+  "module": "unassigned",
+  "opened": "2026-02-06",
+  "closed": "2026-02-06",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-02-06"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-02-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19804",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2026-02-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19803",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2026-02-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19802",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-02-05",
+  "closed": "2026-03-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19801",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2026-02-03",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19800",
+  "severity": "critical",
+  "module": "build",
+  "opened": "2026-02-02",
+  "closed": "2026-02-06",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19799",
+  "severity": "critical",
+  "module": "build",
+  "opened": "2026-01-31",
+  "closed": "2026-02-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19798",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-01-30",
+  "closed": "2026-02-03",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19797",
+  "severity": "medium",
+  "module": "fs/azure",
+  "opened": "2026-01-27",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19796",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-01-27",
+  "closed": "2026-01-27",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-27"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19795",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-01-27",
+  "closed": "2026-04-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-04-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19794",
+  "severity": "critical",
+  "module": "build",
+  "opened": "2026-01-26",
+  "closed": "2026-01-29",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19793",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2026-01-26",
+  "closed": "2026-03-11",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19792",
+  "severity": "high",
+  "module": "hadoop-thirdparty",
+  "opened": "2026-01-26",
+  "closed": "2026-03-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-27"
+   },
+   {
+    "to": "reopened",
+    "at": "2026-01-30"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19791",
+  "severity": "high",
+  "module": "cloud-storage",
+  "opened": "2026-01-23",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19790",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-01-23",
+  "closed": "2026-03-23",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-02-02"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19789",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-01-19",
+  "closed": "2026-01-20",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-01-19"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-01-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19788",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-01-18",
+  "closed": "2026-03-11",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-01-21"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-03-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19787",
+  "severity": "medium",
+  "module": "nfs",
+  "opened": "2026-01-17",
+  "closed": "2026-01-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19786",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-01-17",
+  "closed": "2026-06-05",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-01-21"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-06-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19785",
+  "severity": "critical",
+  "module": "build",
+  "opened": "2026-01-15",
+  "closed": "2026-02-03",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-02-02"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-02-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19784",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-01-14",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19783",
+  "severity": "medium",
+  "module": "fs/azure",
+  "opened": "2026-01-12",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19782",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2026-01-11",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-01-11"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19781",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-01-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19780",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-01-09",
+  "closed": "2026-01-09",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19779",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-01-09",
+  "closed": "2026-01-22",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19778",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2026-01-06",
+  "closed": "2026-02-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19777",
+  "severity": "high",
+  "module": "documentation",
+  "opened": "2026-01-06",
+  "closed": "2026-01-12",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19776",
+  "severity": "high",
+  "module": "precommit",
+  "opened": "2026-01-05",
+  "closed": "2026-01-12",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19775",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-01-05",
+  "closed": "2026-01-09",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-01-08"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-01-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19774",
+  "severity": "critical",
+  "module": "build",
+  "opened": "2026-01-05",
+  "closed": "2026-02-01",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2026-01-30"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-02-01"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19773",
+  "severity": "high",
+  "module": "build",
+  "opened": "2026-01-04",
+  "closed": "2026-01-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19771",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-31",
+  "closed": "2026-01-01",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-01"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19770",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-12-31",
+  "closed": "2026-02-24",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-12-31"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-02-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19769",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-31",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19768",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-31",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19767",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-12-31",
+  "closed": "2026-01-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19766",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-12-31",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19765",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-12-29",
+  "closed": "2026-01-03",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19764",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-29",
+  "closed": "2026-01-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19763",
+  "severity": "high",
+  "module": "conf",
+  "opened": "2025-12-29",
+  "closed": "2026-01-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19762",
+  "severity": "high",
+  "module": "fs/gcs",
+  "opened": "2025-12-26",
+  "closed": "2026-01-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19761",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2025-12-26",
+  "closed": "2025-12-29",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19760",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-12-23",
+  "closed": "2025-12-26",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-26"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19759",
+  "severity": "critical",
+  "module": "hdfs",
+  "opened": "2025-12-19",
+  "closed": "2025-12-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19758",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-19",
+  "closed": "2026-07-09",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-07-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19757",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-12-17",
+  "closed": "2025-12-22",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-22"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19756",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-16",
+  "closed": "2026-01-12",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2025-12-16"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-01-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19755",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-12-14",
+  "closed": "2025-12-30",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19754",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-12",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19753",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19752",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-10",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19751",
+  "severity": "high",
+  "module": "site",
+  "opened": "2025-12-09",
+  "closed": "2026-01-12",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2025-12-09"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-01-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19750",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-08",
+  "closed": "2026-06-25",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-06-25"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19749",
+  "severity": "high",
+  "module": "hdfs",
+  "opened": "2025-12-07",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19748",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2025-12-03",
+  "closed": "2026-02-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19747",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-12-02",
+  "closed": "2025-12-04",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19746",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-12-02",
+  "closed": "2025-12-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19745",
+  "severity": "low",
+  "module": "build",
+  "opened": "2025-12-01",
+  "closed": "2025-12-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19744",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-11-18",
+  "closed": "2025-12-15",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19743",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2025-11-17",
+  "closed": "2025-11-18",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-11-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19742",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-11-17",
+  "closed": "2025-11-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-11-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19741",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-11-15",
+  "closed": "2026-03-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19740",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-11-05",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19739",
+  "severity": "medium",
+  "module": "fs/azure",
+  "opened": "2025-11-04",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19738",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-11-04",
+  "closed": "2025-11-12",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-11-04"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-11-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19737",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-11-04",
+  "closed": "2026-01-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19736",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-10-24",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19735",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-10-24",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19734",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2025-10-23",
+  "closed": "2025-10-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19733",
+  "severity": "medium",
+  "module": "fs/s3",
+  "opened": "2025-10-22",
+  "closed": "2026-03-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-03-05"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19732",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-10-21",
+  "closed": "2025-10-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19731",
+  "severity": "high",
+  "module": "common",
+  "opened": "2025-10-19",
+  "closed": "2025-12-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-19"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-12-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19730",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-10-19",
+  "closed": "2025-10-27",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-27"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19729",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-10-17",
+  "closed": "2026-01-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19728",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-10-15",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19727",
+  "severity": "high",
+  "module": "hadoop-thirdparty",
+  "opened": "2025-10-14",
+  "closed": "2025-11-04",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-14"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-11-04"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19726",
+  "severity": "high",
+  "module": "hadoop-tos",
+  "opened": "2025-10-12",
+  "closed": "2025-10-19",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-12"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19725",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-10-12",
+  "closed": "2025-10-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19724",
+  "severity": "high",
+  "module": "hadoop-common",
+  "opened": "2025-10-12",
+  "closed": "2026-02-06",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19723",
+  "severity": "high",
+  "module": "docker",
+  "opened": "2025-10-09",
+  "closed": "2025-10-10",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-09"
+   },
+   {
+    "to": "patch_available",
+    "at": "2025-10-09"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19722",
+  "severity": "medium",
+  "module": "docker",
+  "opened": "2025-10-09",
+  "closed": "2025-10-10",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-09"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19721",
+  "severity": "medium",
+  "module": "unassigned",
+  "opened": "2025-10-09",
+  "closed": "2026-06-24",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2026-02-26"
+   },
+   {
+    "to": "open",
+    "at": "2026-03-25"
+   },
+   {
+    "to": "resolved",
+    "at": "2026-06-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19720",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-10-08",
+  "closed": "2025-10-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-08"
+   },
+   {
+    "to": "patch_available",
+    "at": "2025-10-08"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19719",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-10-08",
+  "closed": "2025-10-20",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-08"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-20"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19718",
+  "severity": "medium",
+  "module": "fs/azure",
+  "opened": "2025-10-07",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19717",
+  "severity": "high",
+  "module": "hdfs",
+  "opened": "2025-10-07",
+  "closed": "2025-10-07",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-07"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19716",
+  "severity": "medium",
+  "module": "docker",
+  "opened": "2025-10-06",
+  "closed": "2025-10-06",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-06"
+   },
+   {
+    "to": "patch_available",
+    "at": "2025-10-06"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19715",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-10-06",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19713",
+  "severity": "medium",
+  "module": "build",
+  "opened": "2025-10-02",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19712",
+  "severity": "high",
+  "module": "fs",
+  "opened": "2025-10-01",
+  "closed": "2025-10-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19711",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-10-01",
+  "closed": "2025-10-06",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-10-01"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19710",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-09-29",
+  "closed": "2026-01-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19709",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-09-27",
+  "closed": "2025-12-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-12-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19708",
+  "severity": "high",
+  "module": "fs/volcano",
+  "opened": "2025-09-26",
+  "closed": "2025-11-30",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-09-26"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-11-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19707",
+  "severity": "high",
+  "module": "test",
+  "opened": "2025-09-25",
+  "closed": "2025-10-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19706",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-09-24",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19705",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-09-24",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19703",
+  "severity": "high",
+  "module": "common",
+  "opened": "2025-09-24",
+  "closed": "2026-08-02",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-08-02"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19702",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-09-23",
+  "closed": "2025-10-03",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2025-09-25"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-03"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19701",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-09-23",
+  "closed": "2025-09-24",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19700",
+  "severity": "high",
+  "module": "hadoop-thirdparty",
+  "opened": "2025-09-22",
+  "closed": "2025-09-24",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-09-22"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-09-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19698",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-09-18",
+  "closed": "2025-09-18",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19697",
+  "severity": "critical",
+  "module": "fs/gcs",
+  "opened": "2025-09-17",
+  "closed": "2026-02-12",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-02-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19696",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-09-17",
+  "closed": "2025-11-30",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-11-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19695",
+  "severity": "medium",
+  "module": "hadoop-common",
+  "opened": "2025-09-17",
+  "closed": "2025-10-13",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-13"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19694",
+  "severity": "high",
+  "module": "hadoop-thirdparty",
+  "opened": "2025-09-17",
+  "closed": "2025-09-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19693",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-09-17",
+  "closed": "2025-10-06",
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2025-09-23"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-10-06"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19692",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-09-16",
+  "closed": "2025-09-18",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19691",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-09-16",
+  "closed": "2025-09-24",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-09-16"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-09-24"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19690",
+  "severity": "high",
+  "module": "common",
+  "opened": "2025-09-15",
+  "closed": "2025-09-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19689",
+  "severity": "high",
+  "module": "common",
+  "opened": "2025-09-15",
+  "closed": "2025-09-19",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-19"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19688",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-09-15",
+  "closed": "2025-09-16",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-16"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19687",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-09-15",
+  "closed": "2025-09-15",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19685",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-09-12",
+  "closed": "2025-09-12",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-09-12"
+   },
+   {
+    "to": "patch_available",
+    "at": "2025-09-12"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-09-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19684",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-09-10",
+  "closed": "2025-09-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19682",
+  "severity": "high",
+  "module": "site",
+  "opened": "2025-09-09",
+  "closed": "2025-09-09",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19681",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-09-08",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19680",
+  "severity": "critical",
+  "module": "unassigned",
+  "opened": "2025-09-08",
+  "closed": "2025-09-15",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-15"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19679",
+  "severity": "high",
+  "module": "site",
+  "opened": "2025-09-05",
+  "closed": "2025-09-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19678",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-09-05",
+  "closed": "2025-09-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-05"
+   },
+   {
+    "to": "reopened",
+    "at": "2025-09-07"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-09-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19677",
+  "severity": "high",
+  "module": "test",
+  "opened": "2025-09-05",
+  "closed": "2025-09-07",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19676",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-09-04",
+  "closed": "2026-01-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19675",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-09-04",
+  "closed": "2025-09-08",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-08"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19674",
+  "severity": "high",
+  "module": "hadoop-common",
+  "opened": "2025-09-03",
+  "closed": "2025-09-09",
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-09-03"
+   },
+   {
+    "to": "patch_available",
+    "at": "2025-09-03"
+   },
+   {
+    "to": "resolved",
+    "at": "2025-09-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19673",
+  "severity": "high",
+  "module": "common",
+  "opened": "2025-09-02",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2025-09-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19672",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-09-01",
+  "closed": "2026-01-23",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-23"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19671",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-08-30",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "in_progress",
+    "at": "2025-08-30"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19670",
+  "severity": "high",
+  "module": "common",
+  "opened": "2025-08-29",
+  "closed": "2025-11-21",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-11-21"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19669",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-08-29",
+  "closed": "2025-09-10",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-10"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19668",
+  "severity": "high",
+  "module": "security",
+  "opened": "2025-08-29",
+  "closed": "2025-11-12",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-11-12"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19667",
+  "severity": "high",
+  "module": "unassigned",
+  "opened": "2025-08-27",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19666",
+  "severity": "high",
+  "module": "native",
+  "opened": "2025-08-27",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19665",
+  "severity": "high",
+  "module": "kms",
+  "opened": "2025-08-26",
+  "closed": null,
+  "transitions": [
+   {
+    "to": "patch_available",
+    "at": "2025-09-07"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19664",
+  "severity": "high",
+  "module": "fs/s3",
+  "opened": "2025-08-26",
+  "closed": "2025-09-18",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-18"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19663",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-08-26",
+  "closed": "2025-10-09",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-10-09"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19662",
+  "severity": "high",
+  "module": "common",
+  "opened": "2025-08-26",
+  "closed": null,
+  "transitions": []
+ },
+ {
+  "defect_id": "HADOOP-19661",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-08-26",
+  "closed": "2025-08-29",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-08-29"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19660",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-08-26",
+  "closed": "2026-01-14",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-14"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19659",
+  "severity": "high",
+  "module": "build",
+  "opened": "2025-08-26",
+  "closed": "2025-09-01",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2025-09-01"
+   }
+  ]
+ },
+ {
+  "defect_id": "HADOOP-19658",
+  "severity": "high",
+  "module": "fs/azure",
+  "opened": "2025-08-21",
+  "closed": "2026-01-05",
+  "transitions": [
+   {
+    "to": "resolved",
+    "at": "2026-01-05"
+   }
+  ]
+ }
+]
