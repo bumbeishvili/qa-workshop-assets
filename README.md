@@ -12,10 +12,13 @@ claude
 ```
 
 ```
-.claude/skills/qa-dataviz/   the skill: rules, D3 convention, verification,
-                             sample data, checked findings, the report prompts
-samples/coverage_real.json   the coverage sample: Apache Commons Math via
-                             SonarCloud, 76 directories
+.claude/skills/qa-dataviz/            the skill: rules, D3 convention, verification,
+                                      sample data, checked findings, the report prompts
+data/coverage_real.json               the coverage sample: Apache Commons Math via
+                                      SonarCloud, 76 directories
+data/also-do-this-if-time-allows.csv  107 employees of the Oracle HR sample schema,
+                                      with manager (parentId), department and salary
+                                      columns, from github.com/bumbeishvili/sample-data
 ```
 
 ## Build the coverage report
@@ -23,6 +26,12 @@ samples/coverage_real.json   the coverage sample: Apache Commons Math via
 Paste the coverage prompt from `.claude/skills/qa-dataviz/samples/PROMPTS.md`
 into Claude Code. With the skill loaded, that prompt is the whole request;
 the checked numbers it carries are in `samples/FINDINGS.md` next to it.
+
+## If time allows
+
+`data/also-do-this-if-time-allows.csv` has no prompt yet. Run the skill's
+workflow on it from step 1: name the data, check the numbers, write the three
+blocks, build.
 
 To review a generated page by measurement:
 
