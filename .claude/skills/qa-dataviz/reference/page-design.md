@@ -73,7 +73,11 @@ muted.
 
 - **Sorted horizontal bars** — band step 38–42px, padding ≈ 0.32,
   rounded data-end radius 2, tinted fill, value label 13px muted just
-  past the bar end, category labels right-aligned in the gutter.
+  past the bar end, category labels right-aligned in the gutter. Sorted
+  by value even when the labels are ordinal (depth, sprint); if lookup
+  by that order is also needed, a two-state pill at the panel header's
+  right (`by value` · `by depth`, styled like the buttons, 12px) toggles
+  it, value first, with the bars sliding to their new rows keyed by id.
 - **Unit / waffle** — one square per item for per-item status over a
   small count (≤ ~60): 30–38px cells, 8–10px gap, corner radius 4,
   semantic fill; counts per status in the panel's info line, not a key

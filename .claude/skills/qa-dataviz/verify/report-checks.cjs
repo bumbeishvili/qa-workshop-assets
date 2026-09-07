@@ -109,9 +109,20 @@ async function measure(page, width) {
       .map((el) => el.textContent.trim()).filter((t) => /^(pass|fail|error)(\s*\d+)?$/i.test(t));
     const h1Text = (document.querySelector('h1')?.textContent || '').replace(/\s+/g, ' ').trim();
     const h1Words = h1Text ? h1Text.split(' ').length : 0;
+    // horizontal bar panels: widths must descend in row order unless the svg says data-sort="natural"
+    const barOrder = svgs.map((svg) => {
+      const bars = [...svg.querySelectorAll('rect.mark')].map((el) => el.getBoundingClientRect()).filter((b) => b.width > 0);
+      if (bars.length < 3) return null;
+      const sameX = Math.max(...bars.map((b) => b.x)) - Math.min(...bars.map((b) => b.x)) < 2;
+      const sameH = Math.max(...bars.map((b) => b.height)) - Math.min(...bars.map((b) => b.height)) < 2;
+      if (!sameX || !sameH) return null;                       // not a horizontal bar panel
+      const byRow = bars.slice().sort((a, b) => a.y - b.y).map((b) => Math.round(b.width));
+      const sorted = byRow.every((w, i) => i === 0 || byRow[i - 1] >= w);
+      return { panel: svg.dataset.panel || 'svg', sort: svg.dataset.sort || '', widths: byRow, sorted };
+    }).filter(Boolean);
     const scrollW = document.documentElement.scrollWidth;
     const body = document.body.innerText;
-    return { h1Text, h1Words, keyNames, strayStatus, panelTitles, badTitles, wordy, visibleChars, texts: texts.length, textOverlaps, overlapPairs: overlapPairs.slice(0, 5), panels, annos, scrollW, hasLie: /lie factor/i.test(body), hasTimestamp: /timestamp/i.test(body), title: document.title };
+    return { barOrder, h1Text, h1Words, keyNames, strayStatus, panelTitles, badTitles, wordy, visibleChars, texts: texts.length, textOverlaps, overlapPairs: overlapPairs.slice(0, 5), panels, annos, scrollW, hasLie: /lie factor/i.test(body), hasTimestamp: /timestamp/i.test(body), title: document.title };
   });
 }
 
@@ -390,6 +401,7 @@ async function measure(page, width) {
   chk(wide.keyNames.length === 1, `one page-level status key: ${JSON.stringify(wide.keyNames)}`);
   chk(wide.strayStatus.length === 0, `no panel legend entries outside the key: ${JSON.stringify(wide.strayStatus)}`);
   chk((wide.h1Words || 0) <= 4 && !/\d/.test(wide.h1Text || ''), `page title is a plain name, <= 4 words, no numbers: "${wide.h1Text}"`);
+  wide.barOrder.forEach((b) => chk(b.sorted || b.sort === 'natural', `[${b.panel}] bars sorted by value in row order (${b.widths.join(', ')})${b.sort ? ' [' + b.sort + ']' : ''}`));
   chk(wide.badTitles.length === 0, `panel titles one clause, <= 10 words: ${wide.badTitles.length} bad ${JSON.stringify(wide.badTitles)}`);
   verdict.push(`INFO visible characters outside the table: ${wide.visibleChars}`);
   chk(wide.wordy.length === 0, `lines over 5 words outside headings: ${wide.wordy.length} ${JSON.stringify(wide.wordy.slice(0, 8))}`);

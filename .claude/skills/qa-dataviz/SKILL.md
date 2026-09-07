@@ -130,7 +130,10 @@ Full text, detection steps, and fixes: `reference/anti-patterns.md`.
 - **A-7** Status colors are semantic and colorblind-safe (Okabe–Ito, fixed
   mapping in `reference/palette.md`), never assigned by series order.
 - **A-8** Ranking questions get value-sorted categories; alphabetical order
-  is reserved for lookup.
+  is reserved for lookup. An ordinal label (depth, sprint, build) is not
+  exempt: when the title ranks, the bars sort by value, and a two-state
+  pill in the panel header (`by value · by depth`) restores the natural
+  order for lookup.
 - **C-1** Chart code re-renders on new data without duplicating elements;
   a function of (container, data, options). Reference implementation: `d3/`.
 - **C-2** Source, window, and N are printed on the chart.
@@ -257,7 +260,7 @@ at build time, reviewers at review time.
 5. **TIME-01** — no pies where time is a dimension
 6. **AXES-02** — no dual y-axes; index or aligned panels
 7. **COLOR-01** — status colors semantic, one fixed lookup (page-design tokens on the report page, palette.md elsewhere), never a default cycle
-8. **SORT-01** — ranking questions get value-sorted categories
+8. **SORT-01** — ranking questions get value-sorted categories, ordinal labels included; natural order only behind a `by value · by <label>` pill, value order the default
 9. **CODE-01** — chart re-renders without duplicate elements; function of (container, data, options)
 10. **PROV-01** — source and N printed on the page; the window behind the provenance info icon
 11. **LIE-01** — lie factor ≈ 1 (Tufte tolerance 0.95–1.05), computed and reported at build time; the phrase never appears on the page

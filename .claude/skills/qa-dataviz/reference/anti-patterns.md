@@ -103,7 +103,13 @@ colors are looked up by status value, never by index.
 
 **What happens.** Alphabetical bars make the reader do the sorting.
 Alphabetical order encodes nothing; QA categorical data is almost always
-consumed as a ranking — "where is it worst?"
+consumed as a ranking — "where is it worst?" Ordinal labels — depth,
+sprint, build number — hide the same defect behind a natural order: eight
+depths drawn 0 to 12 while the title says which depth repeats the most
+lines is still a ranking left to the reader. Sort by value; when the
+natural order is also needed for lookup, a two-state pill in the panel
+header switches between them, value order first, marks keyed by id so
+the bars slide rather than redraw.
 
 **Detect.** Category axis in alphabetical or insertion order when the
 question is a ranking.
