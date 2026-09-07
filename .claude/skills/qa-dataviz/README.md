@@ -11,12 +11,13 @@ September 2026). Works standalone.
 ## Install (one command)
 
 ```
-curl -sO https://qa.davidb.dev/qa-dataviz-skill.zip && unzip -q qa-dataviz-skill.zip -d .claude/skills
+git clone https://github.com/bumbeishvili/qa-workshop-assets
 ```
 
-Project-local install; unzip into `~/.claude/skills` instead to have it in
-every project. The zip is this folder as served by the workshop site; the
-repository behind it is private, so there is no clone or `degit` route. For tools other than Claude Code, paste SKILL.md
+That repo is a ready project with this folder at `.claude/skills/qa-dataviz`:
+open it in Claude Code and the skill is loaded. To have it in another
+project, copy that folder into its `.claude/skills/`; into
+`~/.claude/skills/` for every project. For tools other than Claude Code, paste SKILL.md
 into the system/context and keep the linked files reachable; the format is
 plain markdown (Agent Skills standard) and portable across Claude Code,
 Copilot, Cursor, and Codex.
