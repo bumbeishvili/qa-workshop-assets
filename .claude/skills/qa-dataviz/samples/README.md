@@ -2,14 +2,13 @@
 
 Real data is the default for everything hands-on. Synthetic exists only in
 `synthetic/`, for demos that need a guaranteed, findable pathology, and is
-introduced as synthetic wherever it appears. Full provenance detail lives in
-the workshop repository's `samples/README.md`; this is the short version.
+introduced as synthetic wherever it appears.
 
 ## Real (fetched, not generated)
 
 | File | What it is | Source |
 |---|---|---|
-| `runs_real.json` | Real test executions of [orbit](https://github.com/orbit/orbit): 86 tests × 40 real runs, parsed from raw surefire/JUnit XML. Contains a genuinely ~25%-flaky test and a real 3-test co-failure cluster (MongoDB unavailable). The original reports carry no wall-clock time, so the file has no timestamp column and none was fabricated; `build_id` is a category. | FlakeFlagger raw reruns, [Zenodo 4450723](https://zenodo.org/records/4450723) |
+| `runs_real.json` | Real test executions of [orbit](https://github.com/orbit/orbit): 86 tests × 40 real runs, parsed from raw surefire/JUnit XML. Contains a test that fails 10 of 40 builds and a 3-test co-failure cluster (MongoDB unavailable). The original reports carry no wall-clock time, so the file has no timestamp column and none was fabricated; `build_id` is a category. The same rows as CSV, the form the prompts name, are at [qa.davidb.dev/samples/runs_real.csv](https://qa.davidb.dev/samples/runs_real.csv). | FlakeFlagger raw reruns, [Zenodo 4450723](https://zenodo.org/records/4450723) |
 | `defects_jira.json` | 300 real Apache HADOOP issues with real status-transition changelogs, mapped to the defect schema. | [issues.apache.org](https://issues.apache.org/jira) REST API |
 | `coverage_real.json` | Real per-directory LOC + line coverage for Apache Commons Math (76 dirs, ~295k LOC). Well covered overall (~80%) with a few weak spots — realistic, less dramatic than the fixture. | [SonarCloud public API](https://sonarcloud.io) |
 

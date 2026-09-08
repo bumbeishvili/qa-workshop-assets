@@ -15,9 +15,9 @@ table, state the row, then build to the construction notes below.
 | Pass/fail mix over time? | Stacked bars / area | Pie per period |
 
 The ranking behind every row (Cleveland & McGill 1984): position > length >
-angle > area > color. Encode the decision-critical quantity as high on that
-ladder as the data allows — that is why bars beat bubbles beat pies, why
-sorting matters, and why color is the weakest place to put meaning.
+angle > area > color. Encode the quantity the decision rests on as high on
+that ladder as the data allows: bars beat bubbles beat pies, and color is
+the weakest place to put meaning.
 
 ## Construction notes
 
@@ -44,8 +44,8 @@ sorting matters, and why color is the weakest place to put meaning.
 - Area = LOC, color = covered_pct on the diverging ramp (palette.md).
 - Annotate the largest low-coverage module with its numbers ("legacy-sync:
   5,400 LOC at 12%").
-- Triage tool, not measurement: for precise comparison between modules,
-  produce sorted bars instead.
+- The treemap locates; for precise comparison between modules, produce
+  sorted bars instead.
 
 ### Cumulative flow diagram
 
@@ -58,7 +58,7 @@ sorting matters, and why color is the weakest place to put meaning.
 
 - Age buckets (0–7, 8–30, 31–90, 90+ days) within each severity, open
   defects only. The 90+ bucket of the highest severity is the headline;
-  list its defect IDs — each is an item with an owner, not a statistic.
+  list its defect IDs so each can be assigned.
 
 ### Co-failure correlation matrix
 

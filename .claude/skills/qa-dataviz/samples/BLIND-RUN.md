@@ -17,9 +17,10 @@ session gave a fresh subagent that could see nothing but the sandbox.
 └─ out/                   empty; the agent writes index.html here
 ```
 
-The layout mirrors the repo, so a page written to `out/` loads
-`../samples/<file>` and `../vendor/<lib>` by relative path and can be
-copied into `report/` unchanged. The page fetches its data at runtime
+The layout mirrors the workshop repository (the one behind
+qa.davidb.dev, which carries `vendor/` and `report/`), so a page written
+to `out/` loads `../samples/<file>` and `../vendor/<lib>` by relative
+path and can be copied into `report/` unchanged. The page fetches its data at runtime
 and embeds nothing; serve the sandbox (`python3 -m http.server 8123`)
 and open `http://127.0.0.1:8123/out/index.html`, since `file://` blocks
 fetch.

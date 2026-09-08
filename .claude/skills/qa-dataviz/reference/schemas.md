@@ -54,8 +54,8 @@ any line crossing them.
 ```
 
 The `transitions` array is what makes a cumulative flow diagram possible;
-an export with only current status cannot produce one — say so rather than
-faking the bands from opened/closed alone without labeling the limitation.
+an export with only current status cannot produce one. State that
+limitation on the chart if bands are built from opened/closed alone.
 
 ## Coverage node — hierarchy for treemaps
 

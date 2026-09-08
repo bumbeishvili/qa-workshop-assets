@@ -97,8 +97,8 @@ muted.
   `annotations.md` assigns to the mark being named — a rect subject
   around one bar or one cell, a circle around one point, a threshold
   line for a level; never a group of marks — with the note beside its
-  subject and no leader when the gutter has room. A second line is a caption in disguise — its content
-  goes to the mark's hover tooltip or the panel's info icon.
+  subject and no leader when the gutter has room. A second line's
+  content goes to the mark's hover tooltip or the panel's info icon.
 
 ## Legends
 
@@ -121,8 +121,7 @@ ONE status key, once, and no panel carries its own:
 
 ## Form richness
 
-A page of only horizontal bars reads as a spreadsheet. Each answer uses
-the form it earns: totals → sorted bars; per-item status across a small
+Each answer uses the form it earns: totals → sorted bars; per-item status across a small
 count → unit/waffle; percentages that share a denominator and whose
 comparison is the question → dots on the full axis; part-to-whole →
 proportion split; heterogeneous facts that share no axis → a stat strip.

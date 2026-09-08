@@ -1,8 +1,11 @@
 # Report prompts for the shipped samples
 
 The three-block prompt from SKILL.md, filled in per sample. With the
-skill loaded, each one is the whole prompt; `report/` in the repo holds
-the pages they produced.
+skill loaded, each one is the whole prompt. The pages they produced:
+[runs report](https://qa.davidb.dev/report/runs-report.html),
+[coverage report](https://qa.davidb.dev/report/coverage-report.html).
+`runs_real.csv` is `runs_real.json` as CSV, served at
+[qa.davidb.dev/samples/runs_real.csv](https://qa.davidb.dev/samples/runs_real.csv).
 
 ## runs_real.csv
 

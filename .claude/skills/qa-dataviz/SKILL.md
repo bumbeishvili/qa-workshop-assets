@@ -5,10 +5,9 @@ description: Build, prompt for, verify and review QA data visualizations (test r
 
 # QA data visualization
 
-Rules for producing decision-grade charts of testing data, the claims
-around them, and the prompts that generate them. Every chart passes the
-self-check list below before it is shown. Nothing here is stylistic
-preference; each rule blocks a specific documented misreading.
+Rules for charts of testing data, the claims around them, and the
+prompts that generate them. Every chart passes the self-check list below
+before it is shown.
 
 Three sub-guides travel with this skill and are part of it:
 
@@ -31,7 +30,7 @@ Three sub-guides travel with this skill and are part of it:
    rows; tier every statement per the Claims section. Parse input to a
    canonical shape — `reference/schemas.md`. JUnit XML goes through
    `scripts/parse_junit.py`, which also emits explicit gap records for
-   missing periods. Never chart a raw export directly.
+   missing periods. Charts are built from the canonical shape.
 3. **Choose the chart** from `reference/chart-selection.md` and state which
    row picked it.
 4. **Build.**
@@ -41,9 +40,8 @@ Three sub-guides travel with this skill and are part of it:
      is a function of (container, data, options). The Chart-class convention
      in `d3/` is the reference implementation; start from `d3/template.js`.
    - C-2: print provenance on the page itself: data source, window, N.
-     Compute the lie factor and report it in the build report — the phrase
-     never appears on the page; a report announcing its own honesty reads
-     as generated, and the honesty is visible in the zero-based axes.
+     Compute the lie factor and report it in the build report; the phrase
+     stays off the page.
    - Status colors are the page-design tokens on the report page and
      `reference/palette.md` elsewhere — one fixed lookup by status value,
      never a library default cycle.
@@ -71,7 +69,7 @@ Three sub-guides travel with this skill and are part of it:
      ("this page computes...", "charts re-render on...") stay off the page.
    - The page opens with a KPI row: three or four headline numbers, each
      a finding (value, one-line sub, a quieter second line for context),
-     before any chart. A reader who stops there has the answers.
+     before any chart.
    - An annotation points at a finding the title and labels cannot carry
      alone — at most one per panel, a single bold line ("0 passes in 240"
      at the bar that owns them), built with d3-annotation using the
@@ -82,20 +80,19 @@ Three sub-guides travel with this skill and are part of it:
      a ring never sits on a filled mark. The note sits beside its subject when there is room; a leader
      is drawn only when it cannot, through empty space, never across
      other marks. Detail beyond that line lives in the mark's tooltip or
-     the panel's info icon. Titles state findings; annotations point at
-     them.
+     the panel's info icon.
    - The page loads its data at runtime — `d3.csv` / `d3.json` from a
      relative path to the file beside it — and never embeds the rows in
      the HTML; the download button links to that same file. Libraries
-     load from relative `<script src>` paths too. A page that fetches
+     load by `<script src>`, from a copy beside the page or a pinned CDN
+     URL, and the build report names which. A page that fetches
      needs an http origin (`python3 -m http.server`), so verification
      serves the folder instead of opening `file://`.
    - The reader can open the data from the page: a data button that shows
      the rows as a table, or downloads the source file. The table appears
      where the reader is — an overlay, or scrolled into view on open; a
-     table appended below the fold reads as a dead button. A page that
-     names its source lets the reader reach it. A download-PDF button
-     sits beside the data buttons.
+     table appended below the fold reads as a dead button. A download-PDF
+     button sits beside the data buttons.
    - Every chart svg carries role="img" and an aria-label that states the
      panel's finding in a sentence. Identity is readable without color:
      the name sits on or beside the mark, and one page-level status key
@@ -117,8 +114,8 @@ Full text, detection steps, and fixes: `reference/anti-patterns.md`.
 
 - **A-1** Zero-based axes for rates and counts; a non-zero base requires a
   labeled threshold and an axis annotation.
-- **A-2** Size encodings map value to area, never radius — and sorted bars
-  beat bubbles anyway.
+- **A-2** Size encodings map value to area, never radius; sorted bars
+  answer the same question more precisely.
 - **A-3** Durations render as distributions or quantile bands (alert on
   p95), never a lone mean.
 - **A-4** Missing periods break the line and render as labeled shaded
@@ -233,7 +230,7 @@ With the skill loaded, that is the whole prompt.
 If the request conflicts with a rule ("start the axis at 90%", "make it a
 pie per sprint"), build BOTH versions side by side — the requested one and
 the honest one — and name the difference in one sentence, with the lie
-factor if an axis is involved. Never silently comply; never silently refuse.
+factor if an axis is involved. Both versions ship, with that sentence.
 
 ## Review mode (input is a chart, not data)
 
@@ -250,8 +247,7 @@ Run the self-check list as a reviewer:
 
 ## Self-check list
 
-The workshop handout carries the same rules. The builder runs this list
-at build time, reviewers at review time.
+The builder runs this list at build time, reviewers at review time.
 
 1. **AXIS-01** — rates/counts zero-based, or a labeled threshold justifies the window
 2. **SIZE-01** — size encodings map value → area, never radius

@@ -2,9 +2,9 @@
 
 Every annotation is three parts: a **subject** (what is marked), a
 **connector** (the leader), and a **note** (the text). d3-annotation
-(`vendor/d3-annotation.min.js`, `d3.annotation()`) ships eight presets
-that differ only in which parts they draw and how. Pick by what is being
-pointed at; the mark's geometry decides, never taste.
+(`d3.annotation()`, loaded by script tag beside d3) ships eight presets
+that differ only in which parts they draw and how. The geometry of the
+mark being pointed at picks the preset.
 
 ## Presets
 
