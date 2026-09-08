@@ -3,8 +3,7 @@
 An Agent Skill for QA data visualization: rules, schemas, scripts and
 sample data for directing an AI to chart testing data with D3, and for
 reviewing the charts, the claims around them and the prompts that
-generate them. Built for the workshop "Data visualization with D3 and
-AI" (QA conference, September 2026); works on its own.
+generate them.
 
 ## Install
 

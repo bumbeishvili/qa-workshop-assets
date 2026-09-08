@@ -1,6 +1,6 @@
 # Canonical data shapes
 
-Three shapes cover the workshop's QA data. Parse any input to one of these
+Four shapes cover the QA data this skill charts. Parse any input to one of these
 before charting (workflow step 2); never chart a raw export. All fields
 lowercase snake_case; dates ISO 8601.
 

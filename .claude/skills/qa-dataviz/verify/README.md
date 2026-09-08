@@ -1,91 +1,112 @@
-# Verification with Playwright
+# Verification by measurement
 
-A discipline for browser bug work. You write a `.cjs` file, run it with `node`, learn
-something, and delete it. These are throwaway scripts, not a suite you maintain —
-nothing here gets committed.
+A report page is verified by a throwaway Playwright script that renders
+it, measures it, and compares what it shows against the data file. Copy
+`template.cjs`, fill in `check()`, run it, fix what it names, and run the
+same script again. `report-checks.cjs` is the reviewer's pass over a
+finished page.
 
-**Start every investigation by copying [`template.cjs`](template.cjs)** into a
-scratch directory. It already wires up console/error/network capture, auth reuse,
-and artifact output — you only write the part that reproduces the bug.
+## Setup
 
-- **[`playbook.md`](playbook.md)** — the recipes: auth, waiting, reading state, measuring, soak loops, ground truth.
+- Playwright, once per machine: `npm i -g playwright && playwright install chromium`
+- Run scripts with the global root on the path: `NODE_PATH="$(npm root -g)" node check.cjs`
+- Serve the folder that holds the page, its data file and its libraries
+  over http (`python3 -m http.server <port>`) and open the page by URL.
+  `file://` blocks the data fetch.
+- Headless. Nobody watches the window in this workflow; a screenshot per
+  state is the record.
 
 ## The loop
 
+1. **Measure.** Read real values out of the rendered page: bounding
+   boxes, text content, attributes, element counts.
+2. **Compare against ground truth.** Compute the same number from the
+   data file in Node (read the CSV or JSON, count, sum, take the median)
+   and assert the page shows it. A check against your own expectation
+   tests the expectation.
+3. **Validate the measurement** on a case whose answer is known before
+   trusting it on the unknown one. A wrong measuring function produces a
+   consistent, convincing, fake signal.
+4. **Fix** the smallest thing the measurement names, then re-run the
+   same script. Only the script that found the failure can show it gone.
+5. **Report** what was measured, the numbers, and what remains
+   unverified. An unnamed gap reads as verified.
+
+## Capture before the first `goto`
+
+```js
+page.on('console', m => { if (m.type() === 'error') problems.push(m.text()); });
+page.on('pageerror', e => problems.push(e.message));
+page.on('requestfailed', r => problems.push(`${r.url()} ${r.failure()?.errorText}`));
+page.on('response', r => { if (r.status() >= 400) problems.push(`${r.status()} ${r.url()}`); });
 ```
-1. Reproduce  → script makes the bug happen, on demand, every run
-2. Measure    → get real numbers; compare against a source of truth
-3. Fix        → smallest change that addresses what you measured
-4. Re-verify  → re-run THE SAME script; bug gone, nothing else broken
-5. Clean up   → remove debug hooks from app source, delete the script
+
+A failed data request or a thrown handler names the failing file and
+line; read these before forming a theory about a visual symptom.
+
+## Wait on a condition
+
+```js
+await page.waitForFunction(() => document.querySelectorAll('svg .mark').length > 0);
+await page.waitForResponse(r => r.url().endsWith('.csv') && r.ok());
 ```
 
-Each step gates the next. Step 1 produces the evidence your theory has to explain, and
-step 4 produces the evidence that the fix worked. Without step 1 you have a theory
-with nothing to explain; without step 4 you have a claim with nothing behind it.
+A fixed `waitForTimeout` is a guess that passes on one machine and hides
+a race on another; use it only as the interval inside a poll loop.
 
-## The four rules
+## Measurement traps
 
-### 1. No repro, no fix
+- `boundingBox()` is page space; SVG `getBBox()` is the element's local
+  space. Convert before comparing the two.
+- Screenshot pixels may be 2× CSS pixels; divide by the device pixel
+  ratio.
+- One sample proves nothing. Sample every text box, every mark, and
+  report the count of failures and the worst case.
 
-Before you form a theory about the cause, have a script that makes the bug happen.
-Once you have exhausted the conditions you can control — data, route, viewport,
-account state, timing — report what you tried, name the conditions you could not set,
-and ask for them.
+## What the self-check list makes measurable
 
-### 2. Your measurement is a suspect too
+- No two text boxes intersect; no text sits outside its svg or the
+  frame; at 1280 px and at 420 px.
+- Each annotation subject contains exactly one mark's box, within 4 px
+  on each side, under 15% of the panel's plot; its connector crosses no
+  mark and no text box.
+- The data table opens inside the viewport when its button is clicked.
+- Filters: one control per column; the longest listbox sits inside the
+  viewport and is at most 320 px tall; typing in its search narrows the
+  rows; moving a slider handle changes the printed end and, on release,
+  the marks and the provenance count; during a transition no numeral
+  shows more decimals than its final value; mark counts after a filter
+  equal the filtered distinct ids; Reset restores the original counts.
+- Every info icon is a focusable button whose popover opens in view and
+  closes on page scroll.
+- The PDF reopens with the visible text (`pdftotext`) and without
+  popover, listbox, search or slider text, and without the phrase "lie
+  factor".
 
-When a script reports something surprising, the script is at least as likely to be
-wrong as the app. **Validate the measuring code against a case with a known answer
-before trusting it on the unknown one.** A measurement bug produces a consistent,
-convincing, entirely fake signal.
+## report-checks.cjs
 
-### 3. Ground truth comes from outside the app
+```
+NODE_PATH="$(npm root -g)" node verify/report-checks.cjs /abs/path/index.html [server-root]
+```
 
-To check that the app shows the right value, fetch the same value straight from its
-source — the API response, the file, the database — in plain Node, and compare the
-two. Checking the app against your own expectation tests your expectation.
+It serves `server-root` (default: the page's parent's parent) over http
+so `../samples` and `../vendor` resolve, asserts the data request
+returned 200 and no rows are embedded, runs the measurements above at
+1280 and 420 px, and exits 1 on any FAIL line. Screenshots go to a temp
+folder unless `CHECKS_OUT` names one.
 
-### 4. Re-run the same script
+It finds elements by these hooks, so a page carries them:
 
-Re-run the exact file that produced the failure. It is the only thing that can prove
-the failure is gone. Then run it against an unrelated area to confirm the rest of the
-app still behaves.
-
-## Practices
-
-- **Run headed.** Every investigation runs with a visible browser window
-  (`headless: false`) so you watch the bug happen. The window shows layout jumps,
-  flashes of stale data, swallowed clicks and stuck spinners that a log reporting
-  `rows: 0` leaves out. Reserve headless for long soak loops, once you already know
-  what you are looking at (playbook §0).
-- **Read the console.** Capture `console`, `pageerror` and failed requests from the
-  first run, including when the bug "is only visual". An error names the failing
-  module and line; a failed request names the URL and status.
-- **Wait on an observable condition** — `until()`, `waitForSelector`,
-  `waitForResponse`. A condition still holds on a slower machine; a fixed sleep passes
-  on yours and hides the race (playbook §3).
-- **Remove every debug hook you add to app source.** `grep` for the hook name before
-  you finish, along with `.only`, forced states and hardcoded coordinates (playbook §4).
-- **One script per investigation**, named for the bug.
-- **Keep scripts in a scratch directory outside the repo**, or delete them before you
-  finish.
-- **Capture artifacts** (screenshots, JSON dumps) to a folder so you can diff runs.
-- **Prefer `getByRole` and visible text over CSS paths.** A selector tied to DOM
-  structure breaks on the next refactor and costs the next investigation.
-
-## Reporting a result
-
-State what you ran, what you observed, and what remains unverified:
-
-> Reproduced with `repro.cjs`: 3 of 5 rows render stale totals after the filter
-> change. Root cause: the memo key omits `filterId` (`useTotals.ts:42`). After the
-> fix the same script shows 5 of 5 correct, console clean. I could not reproduce
-> the reported crash on mobile viewport — needs the real device.
-
-Name the parts you could not reproduce. An explicit "unverified" tells the reader what
-still needs checking; leaving it out reads as verified.
-
-`report-checks.cjs` is the reviewer's pass over a finished report page:
-annotation subjects, filters, listboxes, slider, tweens, popovers, titles,
-legends, overlaps at 1280 and 420, the data table. It exits 1 on any FAIL.
+- every chart svg: a `data-panel` attribute
+- every data mark (bar rect, cell rect, dot circle, segment rect): class
+  `mark` and a datum with an `id` field
+- the Filters toggle: a button with class `filters-toggle` and
+  `aria-expanded`; the panel: class `filter-panel`
+- each listbox pill: a button with class `filter` and
+  `aria-haspopup="listbox"`; each option: `role="option"`, a
+  `data-count` attribute, a child with class `opt-bar`; the search
+  input: `type="search"`
+- each range slider: class `range`, two `role="slider"` handles, a
+  child with class `range-ends` holding the printed ends
+- the Reset button's accessible name: `Reset`
+- KPI values: class `kpi-value`; the page status key: class `status-key`

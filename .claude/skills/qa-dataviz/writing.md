@@ -2,9 +2,9 @@
 
 Two audiences, two rule sets. Decide which one you are writing for before applying anything below.
 
-**Human-facing** — chat replies, READMEs, docs, commit bodies, PR descriptions, code comments. Full pass: Substance, then Style. In comments, match the density and idiom of the surrounding file, and explain why rather than restating the line.
+**Human-facing** — findings, chart titles, captions, notes, build reports, chat replies, code comments. Full pass: Substance, then Style. In comments, match the density and idiom of the surrounding file, and explain why rather than restating the line.
 
-**Model-facing** — SKILL.md, CLAUDE.md, specs, prompt files, anything loaded as context. Apply Substance in full, then the rules in [For files a model reads](#for-files-a-model-reads). Keep the structure; the Style shape rules do not apply.
+**Model-facing** — SKILL.md, its reference files, prompt files, anything loaded as context. Apply Substance in full, then the rules in [For files a model reads](#for-files-a-model-reads). Keep the structure; the Style shape rules do not apply.
 
 ## Substance
 
@@ -76,16 +76,3 @@ Apply Substance in full, then:
 - **State each rule once, in one authoritative place.** Overlapping rule sections leave a model no way to tell which governs, and it resolves the conflict unpredictably.
 - **Keep prose and code in agreement.** A document describing behaviour the code does not have gets followed anyway, because agents trust documentation over source. Check every claim about a file against the file.
 - **Replace aphorisms with criteria.** An aphorism sits in the slot where the operational rule belongs. Instead of "a bug you cannot trigger is a bug you cannot verify", state the condition under which to stop reproducing and ask for what is missing.
-
-## On request: cleaning up an existing file
-
-"Deslop this" means edit the file and report what you cut. "Audit this" or "what would you change" means report first and wait. Take the imperative as authority to cut.
-
-1. Read the whole file, plus anything it cross-references.
-2. Verify its factual claims against the code, config or source it describes. Fix drift before touching style, and report it separately — a document that contradicts its own artifact is the more expensive defect.
-3. Walk the Substance and Style sections above with the file open, one rule at a time, reading the rules as written. A pattern list recalled from memory loses entries between passes, and the entries it loses are the ones you last found nothing for.
-4. **Ask what the document is for, then cut what does not serve that.** A README exists so a reader can install the thing and judge whether they want it. Design rationale, a restatement of the artifact's own contents, and a gloss on a cited source all belong somewhere else.
-5. **Cut structure as well as sentences.** A one-row table, a section explaining a file the reader can open, and a bulleted list where one line would do are padding with formatting on top. Deleting a section is a normal outcome of this pass.
-6. Report the result: word count before and after, what you removed, and why each cut was safe. Lead with the most expensive defect. Name the same defect anywhere else you noticed it, without fixing files you were not asked about.
-
-Judge the file rather than the author, and mark which findings you measured and which are your reading.
